@@ -121,8 +121,16 @@
               "devServerTarget": "front:serve:production"
             }
           }
+        },
+        "deploy": {
+          "builder": "angular-cli-ghpages:deploy",
+          "options": {}
         }
       }
-    }},
-  "defaultProject": "front"
+    }
+  },
+  "defaultProject": "front",
+  "cli": {
+    "analytics": "eb0d9286-c813-453c-b82f-4510db7b8435"
+  }
 }
